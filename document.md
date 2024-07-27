@@ -94,7 +94,7 @@ The Roblox Functions Library is a comprehensive collection of functions and util
 
 To use the Roblox Functions Library, simply require the script in your Roblox game or script:
 ```lua
-local library = require(script.RobloxFunctionsLibrary)
+local library = require(script.lib)
 local player = game.Players.LocalPlayer
 local groupId = 123456
 local rank = library.getPlayerRankInGroup(player, groupId)
